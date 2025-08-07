@@ -180,7 +180,7 @@ WebGestaltRGsea <- function(organism = "hsapiens", enrichDatabase = NULL, enrich
 
         cwd <- getwd()
         setwd(projectDir)
-        zip(paste0("Project_", projectName, ".zip"), ".", flags = "-rq")
+        #zip(paste0("Project_", projectName, ".zip"), ".", flags = "-rq")
         setwd(cwd)
 
         cat("Results can be found in the ", projectDir, "!\n", sep = "")
